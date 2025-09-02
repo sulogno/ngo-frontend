@@ -71,11 +71,12 @@ const About = () => {
 
             {/* Stats */}
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Stat icon={Heart} value="25,000+" label="People served" />
-              <Stat icon={Target} value="3+" label="Years of experience" />
-              <Stat icon={Users} value="75+" label="Villages covered" />
-              <Stat icon={Award} value="4,000+" label="Hours of work" />
-            </div>
+  <Stat icon={Heart} value="25,000+" label="People served" />
+  <Stat icon={Target} value="5+" label="Years of experience" />
+  <Stat icon={Users} value="75+" label="Villages covered" />
+  <Stat icon={Award} value="4,000+" label="Hours of work" />
+</div>
+
           </div>
         </div>
       </div>

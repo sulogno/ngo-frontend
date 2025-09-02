@@ -11,32 +11,30 @@ type Testimonial = {
 const Testimonials = () => {
   const testimonials: Testimonial[] = [
     {
-      quote:
-        'We are not born with a specific race, religion, or language, what we are born with that is a hunger...',
-      name: 'Kalyan Debnath',
-      position: 'Chairperson',
-      Occupation: 'Business',
+      quote: 'আমরা নির্দিষ্ট কোন জাতি , ধর্ম ও ভাষা নিয়ে জন্মাই না। যা নিয়ে জন্মাই তা হলে ক্ষুদা...',
+      name: 'KALYAN DEBNATH',
+      position: 'CHAIRPERSON',
+      Occupation: 'BUSINESS ',
     },
     {
-      quote:
-        'Achena Sukh has taught me so much happiness, peace, and satisfaction in standing by the side of helpless people.',
-      name: 'Laxman Das',
-      position: 'Vice-Chairperson',
-      Occupation: 'Ration dealer',
+      quote:  'অসহায় মানুষের পাশে দাঁড়ানোয় এত সুখ , শান্তি, তৃপ্তি অচেনা সুখ শিখিয়েছে।',
+      name: 'LAXMAN DAS',
+      position: 'VICE-CHAIRPERSON',
+      Occupation: 'RATION DEALER',
     },
     {
-      quote: 'Something greater than religion is kindness and service.',
-      name: 'Soumen Purkait',
-      position: 'Secretary',
-      Occupation: 'Pvt Teacher',
+      quote: 'ধর্মের থেকেও যদি বড়ো কিছু হয় তা হলো দয়া এবং সেবা।',
+      name: 'SOUMEN PURKAIT',
+      position: 'SECRETARY',
+      Occupation: 'PVT TEACHER',
     },
-    {
-      quote:
-        'I dream of an India where no one will be illiterate. No young man will be unemployed. I cannot afford to change the country. I can try to change my own city a little. And that is why, believing in the mantra of service to life through knowledge of Shiva, I have joined Achena Sukh.',
-      name: 'Saroj Dey',
-      position: 'Assistant Secretary',
-      Occupation: 'Govt Teacher',
-    },
+    // {
+    //   quote:
+    //     'I dream of an India where no one will be illiterate. No young man will be unemployed. I cannot afford to change the country. I can try to change my own city a little. And that is why, believing in the mantra of service to life through knowledge of Shiva, I have joined Achena Sukh.',
+    //   name: 'Saroj Dey',
+    //   position: 'Assistant Secretary',
+    //   Occupation: 'Govt Teacher',
+    // },
   ];
 
   // Choose a featured testimonial (first one here; can randomize)

@@ -124,15 +124,15 @@ const Story = () => {
 
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <CTAButton href="/donation">Donate now</CTAButton>
-                <CTAButton href="/members" variant="secondary">
-                  Meet our team
+                <CTAButton href="/core-members" variant="secondary">
+                  Our core team
                 </CTAButton>
               </div>
 
               <div className="mt-10 grid grid-cols-3 gap-4 max-w-xl">
                 <Stat value="10k+" label="Meals & clothing delivered" />
                 <Stat value="1.2k" label="Students supported" />
-                <Stat value="250+" label="Health interventions" />
+                <Stat value="13+" label="Supporting home building" />
               </div>
             </div>
 
@@ -166,6 +166,9 @@ const Story = () => {
             helping others and finding purpose together. Through programs that
             meet urgent needs and build lasting capacity, volunteers and
             communities experience shared dignity and hope.
+          </p>
+          <p className="text-lg text-[#b0db9c] leading-relaxed">
+            We also extend our support beyond our district—reaching privileged schools in Purulia and uplifting indigenous communities in the heart of Jangalmahal, including areas of Jhargram.
           </p>
           <blockquote className="mt-8 bg-[#111]/70 border border-white/10 rounded-2xl p-6 text-left">
             <p className="text-xl text-gray-200 leading-relaxed">
@@ -234,11 +237,11 @@ const Story = () => {
             for children excluded by poverty and help youth prepare for
             competitive exams to grow employability.
           </FieldCard>
-          <FieldCard icon={Stethoscope} title="Health">
+          {/* <FieldCard icon={Stethoscope} title="Health">
             We expand access to basic healthcare, promote health education, and
             work to reduce communicable diseases through awareness and
             interventions in underserved areas.
-          </FieldCard>
+          </FieldCard> */}
           <FieldCard icon={Leaf} title="Environment">
             We protect the environment by encouraging sustainable practices,
             lowering footprints, and conserving shared natural resources for

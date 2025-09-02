@@ -29,7 +29,7 @@ const AllProjects = () => {
       id: 2,
       name: "রেশনিং প্রকল্প",
       date: "Every Month, Starting 2024-04-20",
-      location: "Kakdwip, Namkhana, Sagar, Nischintapur",
+      location: "Kakdwip, Namkhana, Sagar, Pathar pratima, Nischintapur",
       image:
         "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484366/Montly_Food_z8ajxb.png",
       description:
@@ -41,7 +41,7 @@ const AllProjects = () => {
       id: 3,
       name: "সুখের পোশাক",
       date: "September - October 2025",
-      location: "India",
+      location: "Kakdwip",
       image:
         "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484337/Winter_mibozl.png",
       description:
@@ -197,14 +197,14 @@ const AllProjects = () => {
 
         {/* Bottom CTA */}
         <div className="mt-14 text-center">
-          {/* <Link
-            to="/projects"
+           <Link
+            to="/donation"
             className="inline-flex items-center gap-2 rounded-full bg-[#2b2b2b] px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:bg-[#b0db9c] hover:text-black hover:scale-[1.03] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b0db9c] focus-visible:ring-offset-2 focus-visible:ring-offset-black shadow-lg hover:shadow-[0_0_30px_rgba(176,219,156,0.45)]"
             aria-label="View projects overview"
           >
-            <span>Back to Projects Overview</span>
+            <span>Donate now</span>
             <ArrowRight className="w-5 h-5" aria-hidden="true" />
-          </Link> */}
+          </Link> 
         </div>
       </section>
     </div>

@@ -125,10 +125,10 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-white/10 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-400">© {year} Achena Sukh.</p>
-          <div className="flex items-center gap-6">
+          {/* <div className="flex items-center gap-6">
             <Link to="/privacy" className="text-gray-400 hover:text-[#b0db9c] transition">Privacy Policy</Link>
             <Link to="/terms" className="text-gray-400 hover:text-[#b0db9c] transition">Terms of Service</Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

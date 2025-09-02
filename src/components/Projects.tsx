@@ -59,10 +59,10 @@ const Projects = () => {
               <Tag className="h-4 w-4 text-[#b0db9c]" aria-hidden="true" />
               Education
             </span>
-            <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-gray-300">
-              <Tag className="h-4 w-4 text-[#b0db9c]" aria-hidden="true" />
-              Health
-            </span>
+            {/* <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-gray-300">
+               <Tag className="h-4 w-4 text-[#b0db9c]" aria-hidden="true" />
+               Health
+             </span> */}
             <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-gray-300">
               <Tag className="h-4 w-4 text-[#b0db9c]" aria-hidden="true" />
               Community
@@ -87,7 +87,7 @@ const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.name}
-                    className="absolute inset-0 w-full h-full object-contain p-5 transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
                     loading="lazy"
                   />
                   {/* month badge */}

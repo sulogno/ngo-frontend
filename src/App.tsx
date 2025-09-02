@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Counter from './components/Counter';
+import Project1 from './components/Project1'; //
 import Members from './components/Members';
 import Projects from './components/Projects';
 import About from './components/About';
@@ -15,6 +16,7 @@ import FloatingSocial from './components/FloatingSocial';
 import LoadingAnimation from './components/LoadingAnimation';
 
 import AllMembers from './pages/AllMembers';
+import CoreMembers from './pages/CoreMembers.tsx';
 import AllProjects from './pages/AllProjects';
 import Story from './pages/Story';
 import Donation from './components/Donation';
@@ -28,8 +30,9 @@ function Home() {
       <Hero />
       <Counter />
       <Members />
+      <Project1 />
       <Projects />
-      {/* Ensure About has id="about" inside the component, or wrap here if editing About isn't desired */}
+
       <About />
       <Reviews />
       <PhotoScroll />
@@ -68,11 +71,12 @@ function App() {
           {/* Additional Pages */}
           <Route path="/members" element={<AllMembers />} />
           <Route path="/projects" element={<AllProjects />} />
+          <Route path="/core-members" element={<CoreMembers />} />
           <Route path="/story" element={<Story />} />
           <Route path="/donation" element={<Donation />} />
           {/* <Route path="/blood-donor" element={<BloodDonorForm />} />
           <Route path="/blood-donor-results" element={<BloodDonorResults />} /> */}
-          404 route can be added if desired
+          
         </Routes>
       </div>
     </Router>

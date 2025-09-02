@@ -1,19 +1,29 @@
-// src/pages/AllMembers.jsx
 import React, { useState, useEffect } from 'react';
 import { Phone, Users } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Header from '../components/Header';
-import membersData from './members.json';
+import coreMembersData from '../pages/coremembers.json';
 
-const AllMembers = () => {
+const CoreMembers = () => {
   const [members, setMembers] = useState([]);
 
   useEffect(() => {
-    setMembers(membersData || []);
+    setMembers(coreMembersData || []);
   }, []);
 
   return (
     <div className="min-h-screen bg-black text-white">
       <Header />
+
+      {/* Navigation link back to main Members page */}
+      {/* <div className="container mx-auto px-4 py-6">
+        <Link
+          to="/members"
+          className="text-[#b0db9c] hover:underline mb-4 inline-block font-semibold"
+        >
+          &larr; Back to All Members
+        </Link>
+      </div> */}
 
       {/* Hero */}
       <section className="relative overflow-hidden">
@@ -21,7 +31,7 @@ const AllMembers = () => {
         <div className="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-gradient-to-tr from-[#b0db9c]/30 via-[#78e0dc]/25 to-[#b0db9c]/20 blur-3xl" />
         <div className="container mx-auto px-4 relative">
           <div className="py-24">
-            <h1 className="text-4xl md:text-5xl font-extrabold mb-3">Our Team Members</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-3">Our Core Members</h1>
             <p className="text-lg text-gray-300">Meet all our dedicated team members</p>
           </div>
         </div>
@@ -29,7 +39,7 @@ const AllMembers = () => {
 
       {/* Members grid */}
       <section className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {members.map((member) => (
             <article
               key={member._id || member.id}
@@ -84,5 +94,4 @@ const AllMembers = () => {
   );
 };
 
-export default AllMembers;
-
+export default CoreMembers;

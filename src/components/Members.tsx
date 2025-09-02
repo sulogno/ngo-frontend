@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import membersData from '../pages/members.json';
+import coreMembers from '../pages/coremembers.json';
 
 const SLIDE_WIDTH = 320; // px per card
 const ANIMATION_DURATION = 65; // seconds for a full loop
@@ -95,15 +96,25 @@ const Members = () => {
           </div>
         )}
 
-        <div className="mt-10 text-center">
-          <Link
-            to="/members"
-            className="inline-flex items-center gap-2 rounded-full bg-[#2b2b2b] px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:bg-[#b0db9c] hover:text-black hover:scale-[1.03] shadow-lg hover:shadow-[0_0_30px_rgba(176,219,156,0.45)]"
-          >
-            <span>View All Members</span>
-            <ArrowRight className="w-5 h-5" />
-          </Link>
-        </div>
+       <div className="flex justify-center gap-4 mt-10">
+  <Link
+    to="/members"
+    className="inline-flex items-center gap-2 rounded-full bg-[#2b2b2b] px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:bg-[#b0db9c] hover:text-black hover:scale-[1.03] shadow-lg hover:shadow-[0_0_30px_rgba(176,219,156,0.45)]"
+  >
+    <span>View All Members</span>
+    <ArrowRight className="w-5 h-5" />
+  </Link>
+
+  <Link
+    to="/core-members"
+    className="inline-flex items-center gap-2 rounded-full bg-[#2b2b2b] px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:bg-[#b0db9c] hover:text-black hover:scale-[1.03] shadow-lg hover:shadow-[0_0_30px_rgba(176,219,156,0.45)]"
+  >
+    <span>Core Members</span>
+    <ArrowRight className="w-5 h-5" />
+  </Link>
+</div>
+
+
       </div>
 
       {/* Animations and motion fallback */}
