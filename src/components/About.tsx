@@ -38,7 +38,7 @@ const About = () => {
                 style={{ contain: 'content' }}
               >
                 <img
-                  src="https://res.cloudinary.com/dtbgkad9m/image/upload/v1756485809/generated-image_qo3zly.png"
+                  src="https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875840/White_Yellow_Simple_Humanity_Starts_With_Charity_Instagram_Post_20250831_143938_0000_evlia5.jpg"
                   alt="Achena Sukh volunteers bringing happiness through community programs"
                   className="object-contain object-center max-w-full max-h-[70vh] md:max-h-[60vh] w-auto h-auto"
                   loading="lazy"
@@ -52,10 +52,15 @@ const About = () => {
           <div className="lg:col-span-7">
             <h1
               id="about-heading"
-              className="text-4xl md:text-5xl font-extrabold mb-6 bg-gradient-to-r from-white to-[#b0db9c] bg-clip-text text-transparent"
+              className="text-4xl md:text-5xl font-extrabold mb-2 bg-gradient-to-r from-white to-[#b0db9c] bg-clip-text text-transparent"
             >
               About Achena Sukh
             </h1>
+
+            {/* Estd line */}
+            <div className="mb-6 text-xs md:text-sm font-semibold tracking-widest uppercase text-gray-300">
+              <time dateTime="2020-03-22">Estd - 22/03/2020</time>
+            </div>
 
             <div className="space-y-5 text-lg leading-relaxed">
               <p className="text-gray-300">
@@ -71,12 +76,11 @@ const About = () => {
 
             {/* Stats */}
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-  <Stat icon={Heart} value="25,000+" label="People served" />
-  <Stat icon={Target} value="5+" label="Years of experience" />
-  <Stat icon={Users} value="75+" label="Villages covered" />
-  <Stat icon={Award} value="4,000+" label="Hours of work" />
-</div>
-
+              <Stat icon={Heart} value="75,000+" label="People served" />
+              <Stat icon={Target} value="5+" label="Years of experience" />
+              <Stat icon={Users} value="75+" label="Villages covered" />
+              <Stat icon={Award} value="4,000+" label="Hours of work" />
+            </div>
           </div>
         </div>
       </div>

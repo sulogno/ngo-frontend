@@ -139,7 +139,7 @@ const Story = () => {
             <div className="lg:col-span-5 relative z-10">
               <div className="aspect-[4/5] w-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
                 <img
-                  src="https://res.cloudinary.com/dtbgkad9m/image/upload/v1756528629/generated-image_1_jitqnq.png"
+                  src="https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875840/White_Yellow_Simple_Humanity_Starts_With_Charity_Instagram_Post_20250831_143938_0000_evlia5.jpg"
                   alt="Volunteers supporting community programs"
                   className="h-full w-full object-cover"
                 />

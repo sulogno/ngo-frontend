@@ -102,7 +102,7 @@
     "email": "rjtreding2021@gmail.com",
     "phone": "9734938913",
     "blood": "O+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756136485/IMG-20250809-WA0006_-_Rajib_Das_wqdim8.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756963346/WhatsApp_Image_2025-09-04_at_00.54.09_a154a537_oz2z4y.jpg",
     "createdAt": "2025-08-25T15:42:19.652Z",
     "updatedAt": "2025-08-25T15:42:19.652Z",
     "__v": 0
@@ -167,7 +167,43 @@
     "updatedAt": "2025-08-25T15:51:19.581Z",
     "__v": 0
   },
-  
+
+  {
+    "_id": "68ac95db9f082b8abc029563",
+    "name": "SUBINAY PRADHAN",
+    "position": "GENERAL MEMBER",
+    "email": "subinaypradhan@gmail.com",
+    "phone": "7602902709",
+    "blood": " B+ ",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140314/IMG-20211014-WA0031_-_Subinay_Pradhan_kz1l0c.jpg",
+    "createdAt": "2025-08-25T16:56:59.954Z",
+    "updatedAt": "2025-08-25T16:56:59.954Z",
+    "__v": 0
+  },
+  {
+    "_id": "newid-rajatpahari",
+    "name": "RAJAT KUMAR PAHARI",
+    "position": "GENERAL MEMBER",
+    "email": "rajatpahari@yahoo.com",
+    "phone": "7908021797",
+    "blood": "B+",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756963405/WhatsApp_Image_2025-09-04_at_00.47.23_b990fe99_ouneyi.jpg",
+    "createdAt": "2025-08-15T13:30:50.000Z",
+    "updatedAt": "2025-08-15T13:30:50.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ac95db9f082b8abc029565",
+    "name": "ISITA MANDAL",
+    "position": "GENERAL MEMBER",
+    "email": "isitamandal1@gmail.com",
+    "phone": "9732597359",
+    "blood": " B+ ",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140699/IMG-20250814-WA0006_-_Rajib_Das_ccvbtk.jpg",
+    "createdAt": "2025-08-14T20:51:41.000Z",
+    "updatedAt": "2025-08-14T20:51:41.000Z",
+    "__v": 0
+  },
   {
     "_id": "68ac954b9f082b8abc029561",
     "name": "ANTU MAJI",
@@ -192,40 +228,17 @@
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
   },
+
   {
-    "_id": "68ac95db9f082b8abc029563",
+    "_id": "68ac95db9f082b8abc029566",
     "name": "ASIM KUMAR DAS",
     "position": "GENERAL MEMBER",
     "email": "dasasimKumar943@gmail.com",
     "phone": "7001038894",
-    "blood": "0+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
-    "createdAt": "2025-08-25T16:56:59.954Z",
-    "updatedAt": "2025-08-25T16:56:59.954Z",
-    "__v": 0
-  },
-  {
-    "_id": "68ac95db9f082b8abc029563",
-    "name": "SUBINAY PRADHAN",
-    "position": "GENERAL MEMBER",
-    "email": "subinaypradhan@gmail.com",
-    "phone": "7602902709",
-    "blood": " B+ ",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
-    "createdAt": "2025-08-25T16:56:59.954Z",
-    "updatedAt": "2025-08-25T16:56:59.954Z",
-    "__v": 0
-  },
-  {
-    "_id": "68ac95db9f082b8abc029563",
-    "name": "ISITA MANDAL  ",
-    "position": "GENERAL MEMBER",
-    "email": "isitamandal1@gmail.com",
-    "phone": "9732597359",
-    "blood": "B+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
-    "createdAt": "2025-08-25T16:56:59.954Z",
-    "updatedAt": "2025-08-25T16:56:59.954Z",
+    "blood": " O+ ",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756843458/IMG-20250830-WA0004_-_Rajib_Das_njptll.jpg",
+    "createdAt": "2025-08-30T13:32:34.000Z",
+    "updatedAt": "2025-08-30T13:32:34.000Z",
     "__v": 0
   },
   {
@@ -235,7 +248,7 @@
     "email": "suparnadasgiri2019@gmail.com",
     "phone": "9434563303/7001665245",
     "blood": "B+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756874926/IMG_20200515_175013575_2_-_Biswajit_Rana_hlzvf3.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -247,7 +260,7 @@
     "email": "Sulatad6@gmail.com",
     "phone": "9064962806",
     "blood": "B+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756874977/IMG-20250901-WA0002_-_Rajib_Das_sppiro.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -259,7 +272,7 @@
     "email": "anuppanda301@gmail.com",
     "phone": "9593632099",
     "blood": "AB+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875025/IMG-20250901-WA0003_-_Rajib_Das_tkvrsn.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -271,7 +284,7 @@
     "email": "rajuseikh2015@gmail.com",
     "phone": "9732875120",
     "blood": "A+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875079/IMG-20250901-WA0004_-_Rajib_Das_f9hghy.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -283,7 +296,7 @@
     "email": "ananya.mallick302@gmail.com",
     "phone": "7001121150",
     "blood": "O+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875125/IMG-20250901-WA0017_-_Rajib_Das_ga3c3o.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -295,7 +308,7 @@
     "email": "piue.mallick@gmail.com",
     "phone": "7001977373",
     "blood": " B+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875228/IMG-20250901-WA0016_-_Rajib_Das_r6hpmz.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -307,7 +320,7 @@
     "email": "dminatibala@gmail.com",
     "phone": "9734659063",
     "blood": "AB+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875313/IMG-20250901-WA0006_-_Rajib_Das_py0yus.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -319,7 +332,7 @@
     "email": "marsswapan@gmail.com",
     "phone": "9434563430",
     "blood": "O+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875367/IMG-20250901-WA0007_-_Rajib_Das_x6elg6.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -331,7 +344,7 @@
     "email": "mohandas0094@gmail.com",
     "phone": "9046443146",
     "blood": "B+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875522/IMG_20230807_193616_-_Mohan_Das_tndykc.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -343,7 +356,7 @@
     "email": "tapasgiri0081@gmail.com",
     "phone": "7076414056",
     "blood": "B+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875569/20201003_154607_-_Tapas_Giri_jmx4h2.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -355,7 +368,7 @@
     "email": "satyajitkayal567@gmail.com",
     "phone": "7384009353",
     "blood": "AB+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875621/IMG-20250901-WA0015_-_Rajib_Das_lmeclh.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0
@@ -367,7 +380,7 @@
     "email": "iamjhantupodder@gmail.com",
     "phone": "8001671350",
     "blood": "Unknown",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756140973/IMG_20250616_182334_-_Suparna_Das_nnq1my.jpg",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875698/IMG-20250901-WA0018_-_Rajib_Das_js50my.jpg",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0

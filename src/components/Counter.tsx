@@ -3,7 +3,7 @@ import { Users, Heart, Award } from 'lucide-react';
 
 type Counts = { projects: number; lives: number; members: number };
 
-const TARGET: Counts = { projects: 10, lives: 25000, members: 50 };
+const TARGET: Counts = { projects: 10, lives: 75000, members: 50 };
 
 function useCountUp(isActive: boolean, target: number, duration = 1400) {
   const [value, setValue] = React.useState(0);

@@ -53,7 +53,7 @@ const LoadingAnimation = () => {
           <img
             src="https://res.cloudinary.com/dtbgkad9m/image/upload/v1756218920/Logo_tioqdb.png"
             alt="Achena Sukh Logo"
-            className="w-40 h-40 md:w-60 md:h-60 lg:w-72 lg:h-72 mx-auto mb-6"
+            className="w-60 h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 mx-auto mb-6"
             loading="eager"
             decoding="async"
             fetchPriority="high"

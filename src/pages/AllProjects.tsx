@@ -17,7 +17,7 @@ const AllProjects = () => {
     {
       id: 1,
       name: "সুখের আহার",
-      date: "2020-01-01",
+      date: "2020-03-22",
       location: "Kakdwip, Nischintapur, Namkhana",
       image:
         "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484366/Food_ufami5.png",
@@ -40,25 +40,25 @@ const AllProjects = () => {
     {
       id: 3,
       name: "সুখের পোশাক",
-      date: "September - October 2025",
+      date: "September - October (DurgaPuja)",
       location: "Kakdwip",
       image:
         "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484337/Winter_mibozl.png",
       description:
         "প্রতিবছর ছোট ছোট শিশু ও বয়স্ক বৃদ্ধ বৃদ্ধাদের পূজার নতুন পোশাক দেওয়া হয় ।",
-      beneficiaries: 400,
+      beneficiaries: 900,
       photos: [],
     },
     {
       id: 4,
       name: "কম্বলই সম্বল ",
-      date: "December - January",
+      date: "December - January (EveryWinter)",
       location: "Kakdwip, Namkhana, Sagar, Nischintapur",
       image:
         "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484365/Dress_fvc3b8.png",
       description:
         "শীতকালে রাস্তার ভবঘুরে এবং শীতার্ত মানুষদের নতুন কম্বল বিতরণ করা হয়।",
-      beneficiaries: 200,
+      beneficiaries: 700,
       photos: [],
     },
     {
@@ -76,7 +76,7 @@ const AllProjects = () => {
     {
       id: 6,
       name: "রক্তদান শিবির ",
-      date: "April (Once a Year)",
+      date: "Summar (Once a Year)",
       location: "Kakdwip",
       image:
         "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484365/Blood_lqmcje.png",

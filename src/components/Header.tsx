@@ -46,7 +46,12 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4 relative">
         <div className="flex items-center justify-between">
           {/* Brand */}
-          <Link to="/" className="flex items-center gap-3" onClick={closeMobile} aria-label="Go to homepage">
+          <Link
+            to="/"
+            className="flex items-center gap-3"
+            onClick={closeMobile}
+            aria-label="Go to homepage"
+          >
             <img
               src="https://res.cloudinary.com/dtbgkad9m/image/upload/v1756218997/Logo2_kuyzqh.png"
               alt="Achena Sukh logo"
@@ -71,6 +76,12 @@ const Header = () => {
             <Link to="/projects" className="hover:text-[#b0db9c] text-lg transition-colors">
               Projects
             </Link>
+
+            {/* NEW: Core Members */}
+            <Link to="/core-members" className="hover:text-[#b0db9c] text-lg transition-colors">
+              Core Members
+            </Link>
+
             <a
               href={DONATION_URL}
               className="bg-[#2e2e2e] hover:bg-[#b0db9c] hover:text-black px-7 py-2.5 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[0_0_20px_rgba(176,219,156,0.6)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b0db9c] focus-visible:ring-offset-2 focus-visible:ring-offset-black"
@@ -98,18 +109,44 @@ const Header = () => {
             className="md:hidden mt-4 py-6 bg-[#1f1f1f]/95 backdrop-blur-md rounded-xl border border-white/10 relative z-50"
           >
             <nav className="flex flex-col gap-5 px-6" aria-label="Mobile">
-              <Link to="/" className="text-lg hover:text-[#b0db9c] transition-colors" onClick={closeMobile}>
+              <Link
+                to="/"
+                className="text-lg hover:text-[#b0db9c] transition-colors"
+                onClick={closeMobile}
+              >
                 Home
               </Link>
-              <a href="/#about" className="text-lg hover:text-[#b0db9c] transition-colors" onClick={closeMobile}>
+              <a
+                href="/#about"
+                className="text-lg hover:text-[#b0db9c] transition-colors"
+                onClick={closeMobile}
+              >
                 About Us
               </a>
-              <Link to="/story" className="text-lg hover:text-[#b0db9c] transition-colors" onClick={closeMobile}>
+              <Link
+                to="/story"
+                className="text-lg hover:text-[#b0db9c] transition-colors"
+                onClick={closeMobile}
+              >
                 Story
               </Link>
-              <Link to="/projects" className="text-lg hover:text-[#b0db9c] transition-colors" onClick={closeMobile}>
+              <Link
+                to="/projects"
+                className="text-lg hover:text-[#b0db9c] transition-colors"
+                onClick={closeMobile}
+              >
                 Projects
               </Link>
+
+              {/* NEW: Core Members */}
+              <Link
+                to="/core-members"
+                className="text-lg hover:text-[#b0db9c] transition-colors"
+                onClick={closeMobile}
+              >
+                Core Members
+              </Link>
+
               <a
                 href={DONATION_URL}
                 className="bg-[#2e2e2e] hover:bg-[#b0db9c] hover:text-black px-8 py-3 rounded-full text-center text-lg transition-all duration-300"

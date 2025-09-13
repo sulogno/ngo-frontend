@@ -11,7 +11,7 @@ type Testimonial = {
 const Testimonials = () => {
   const testimonials: Testimonial[] = [
     {
-      quote: 'আমরা নির্দিষ্ট কোন জাতি , ধর্ম ও ভাষা নিয়ে জন্মাই না। যা নিয়ে জন্মাই তা হলে ক্ষুদা...',
+      quote: 'আমরা নির্দিষ্ট কোন জাতি , ধর্ম ও ভাষা নিয়ে জন্মাই না। যা নিয়ে জন্মাই তা হলে ক্ষুধা...',
       name: 'KALYAN DEBNATH',
       position: 'CHAIRPERSON',
       Occupation: 'BUSINESS ',

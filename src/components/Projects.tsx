@@ -7,7 +7,7 @@ const Projects = () => {
     {
       id: 1,
       name: 'বৃক্ষরোপণ',
-      date: 'August',
+      date: 'August(monsoon)',
       image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484364/Plantation_2_ahp6vj.png',
       description:
         'প্রতিবছর বর্ষাকালে সমুদ্র উপকূলবর্তী এলাকা এবং বিভিন্ন বিদ্যালয় প্রাঙ্গণে নতুন চারা গাছ লাগানো হয়।',
@@ -16,20 +16,20 @@ const Projects = () => {
     {
       id: 2,
       name: 'সুখের পোশাক',
-      date: 'September',
+      date: 'September-October(DurgaPuja)',
       image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484337/Winter_mibozl.png',
       description:
         'প্রতিবছর ছোট ছোট শিশু ও বয়স্ক বৃদ্ধ বৃদ্ধাদের পূজার নতুন পোশাক দেওয়া হয় ।',
-      beneficiaries: 400,
+      beneficiaries: 900,
     },
     {
       id: 3,
       name: 'কম্বল বিতরণ',
-      date: 'December',
+      date: 'December(Winter)',
       image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484365/Dress_fvc3b8.png',
       description:
         'শীতকালে রাস্তার ভবঘুরে এবং শীতার্ত মানুষদের নতুন কম্বল বিতরণ করা হয়।',
-      beneficiaries: 200,
+      beneficiaries: 700,
     },
   ];
 

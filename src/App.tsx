@@ -74,6 +74,7 @@ function App() {
           <Route path="/core-members" element={<CoreMembers />} />
           <Route path="/story" element={<Story />} />
           <Route path="/donation" element={<Donation />} />
+          <Route path="/core-members" element={<CoreMembers />} />
           {/* <Route path="/blood-donor" element={<BloodDonorForm />} />
           <Route path="/blood-donor-results" element={<BloodDonorResults />} /> */}
           
