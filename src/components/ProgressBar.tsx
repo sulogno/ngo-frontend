@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';   //Manaranjan-Sukh Niketan progress
 import { TrendingUp } from 'lucide-react';
 
 interface ProgressBarProps {
