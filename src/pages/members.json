@@ -96,18 +96,6 @@
     "__v": 0
   },
   {
-    "_id": "68ac845b9f082b8abc02954d",
-    "name": "RAJIB DAS",
-    "position": "GENERAL MEMBER",
-    "email": "rjtreding2021@gmail.com",
-    "phone": "9734938913",
-    "blood": "O+",
-    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756963346/WhatsApp_Image_2025-09-04_at_00.54.09_a154a537_oz2z4y.jpg",
-    "createdAt": "2025-08-25T15:42:19.652Z",
-    "updatedAt": "2025-08-25T15:42:19.652Z",
-    "__v": 0
-  },
-  {
     "_id": "68ac84c29f082b8abc02954f",
     "name": "AYAN MAITY ",
     "position": "GENERAL MEMBER",
@@ -381,6 +369,18 @@
     "phone": "8001671350",
     "blood": "Unknown",
     "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875698/IMG-20250901-WA0018_-_Rajib_Das_js50my.jpg",
+    "createdAt": "2025-08-25T16:56:59.954Z",
+    "updatedAt": "2025-08-25T16:56:59.954Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ac95db9f082b8abc029563",
+    "name": " AMITABHA BARIK ",
+    "position": "GENERAL MEMBER",
+    "email": "brk.amitabha@gmail.com",
+    "phone": "9609068166",
+    "blood": "O+",
+    "imageUrl": "https://res.cloudinary.com/dtbgkad9m/image/upload/v1766011328/amitava_merged-3_-_amitabha_barik_em7ulk.jpg    git add .",
     "createdAt": "2025-08-25T16:56:59.954Z",
     "updatedAt": "2025-08-25T16:56:59.954Z",
     "__v": 0

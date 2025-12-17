@@ -1,8 +1,10 @@
-import React from 'react'; // Upcoming Projects
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { Calendar, Users, ArrowRight, Tag } from 'lucide-react';
 
 const Projects = () => {
+  const navigate = useNavigate();
+
   const projects = [
     {
       id: 1,
@@ -31,7 +33,22 @@ const Projects = () => {
         'শীতকালে রাস্তার ভবঘুরে এবং শীতার্ত মানুষদের নতুন কম্বল বিতরণ করা হয়।',
       beneficiaries: 700,
     },
+    {
+      id: 4,
+      name: 'মনোরঞ্জন-সুখ নিকেতন',
+      date: 'February 2026',
+      image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484364/Plantation_2_ahp6vj.png',
+      description:
+        'সম্প্রতি আমাদের ট্রাস্টের একটি নতুন মানবিক প্রকল্প হিসেবে একটি বৃদ্ধাশ্রম নির্মাণের পরিকল্পনা গ্রহণ করা হয়েছে।',
+      beneficiaries: 1000,
+    },
   ];
+
+  const handleProjectClick = (projectId: number) => {
+    if (projectId === 4) {
+      navigate('/project-details');
+    }
+  };
 
   return (
     <section className="relative py-20 bg-[#0e0e0e]">
@@ -79,7 +96,8 @@ const Projects = () => {
           {projects.map((project, index) => (
             <li key={project.id} role="listitem" className="group">
               <article
-                className="h-full rounded-2xl overflow-hidden bg-[#141414] ring-1 ring-white/10 transition-all duration-300 hover:ring-[#b0db9c]/40 focus-within:ring-[#b0db9c]/60 shadow-[0_0_0_0_rgba(0,0,0,0)] hover:shadow-[0_10px_40px_rgba(176,219,156,0.12)]"
+                onClick={() => handleProjectClick(project.id)}
+                className="h-full rounded-2xl overflow-hidden bg-[#141414] ring-1 ring-white/10 transition-all duration-300 hover:ring-[#b0db9c]/40 focus-within:ring-[#b0db9c]/60 shadow-[0_0_0_0_rgba(0,0,0,0)] hover:shadow-[0_10px_40px_rgba(176,219,156,0.12)] cursor-pointer"
                 style={{ viewTransitionName: `project-${project.id}`, animationDelay: `${index * 120}ms` }}
               >
                 {/* Media */}

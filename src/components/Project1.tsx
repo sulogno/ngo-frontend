@@ -1,7 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Calendar, MapPin } from 'lucide-react';
 
 const Projects1 = () => {
+  const navigate = useNavigate();
+
   const projects = [
     {
       id: 1,
@@ -15,17 +18,24 @@ const Projects1 = () => {
       ongoing: true,
     },
     {
-      id: 2,
-      name: 'মনোরঞ্জন শিশু উদ্যান',
-      date: 'Ongoing',
+      id: 4,
+      name: "কম্বলই সম্বল ",
+      date: "December - January (EveryWinter)",
+      location: "Kakdwip, Namkhana, Sagar, Nischintapur",
       image:
-        'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875837/9_rxivwa.png',
+        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484365/Dress_fvc3b8.png",
       description:
-        'মনোরঞ্জন শিশু উদ্যান শুধু আনন্দের স্থান নয়, ভবিষ্যৎ গড়ার প্রথম পাঠশালা.. ।',
-      location: 'করবাড়ি স্টপেজ অশোকপুর , পূর্বময়নাপাড়া',
-      ongoing: false,
+        "শীতকালে রাস্তার ভবঘুরে এবং শীতার্ত মানুষদের নতুন কম্বল বিতরণ করা হয়।",
+      beneficiaries: 700,
+      photos: [],
     },
   ];
+
+  const handleProjectClick = (projectId: number) => {
+    if (projectId === 1) {
+      navigate('/project-details');
+    }
+  };
 
   return (
     <section className="py-12 sm:py-16 bg-[#0e0e0e]">
@@ -50,7 +60,17 @@ const Projects1 = () => {
           {projects.map((project) => (
             <article
               key={project.id}
-              className="group rounded-2xl overflow-hidden bg-[#141414] ring-1 ring-white/10 hover:ring-[#b0db9c]/80 transition-shadow shadow-sm hover:shadow-lg flex flex-col"
+              onClick={() => handleProjectClick(project.id)}
+              className={`group rounded-2xl overflow-hidden bg-[#141414] ring-1 ring-white/10 hover:ring-[#b0db9c]/80 transition-all shadow-sm hover:shadow-lg flex flex-col ${
+                project.id === 1 ? 'cursor-pointer' : ''
+              }`}
+              role={project.id === 1 ? 'button' : 'article'}
+              tabIndex={project.id === 1 ? 0 : -1}
+              onKeyDown={(e) => {
+                if (project.id === 1 && (e.key === 'Enter' || e.key === ' ')) {
+                  handleProjectClick(project.id);
+                }
+              }}
             >
               <div className="relative aspect-[16/10] bg-gradient-to-b from-[#1b1b1b] to-[#121212]">
                 <img

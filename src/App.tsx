@@ -20,6 +20,7 @@ import CoreMembers from './pages/CoreMembers.tsx';
 import AllProjects from './pages/AllProjects';
 import Story from './pages/Story';
 import Donation from './components/Donation';
+import ProjectDetails from './pages/ProjectDetails'; // Manaranjan-Sukh Niketan
 
 
 import ScrollToAnchor from "./components/ScrollToAnchor"
@@ -73,11 +74,17 @@ function App() {
           <Route path="/projects" element={<AllProjects />} />
           <Route path="/core-members" element={<CoreMembers />} />
           <Route path="/story" element={<Story />} />
+
+          {/* donation routes - support both /donation and /donate */}
           <Route path="/donation" element={<Donation />} />
-          <Route path="/core-members" element={<CoreMembers />} />
+          <Route path="/donate" element={<Donation />} />
+
+          {/* Manaranjan-Sukh Niketan */}
+          <Route path="/project-details" element={<ProjectDetails />} />
+
+          {/* other routes */}
           {/* <Route path="/blood-donor" element={<BloodDonorForm />} />
           <Route path="/blood-donor-results" element={<BloodDonorResults />} /> */}
-          
         </Routes>
       </div>
     </Router>
