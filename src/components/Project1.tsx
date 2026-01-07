@@ -54,6 +54,16 @@ const Projects1 = () => {
         </p>
       </div>
 
+      <div className="mt-6 mb-6">
+             <video
+              src="https://res.cloudinary.com/dtbgkad9m/video/upload/WhatsApp_Video_2026-01-07_at_20.32.27_myly5w.mp4"
+              controls
+              autoPlay
+              loop
+              className="w-full rounded-xl"
+            ></video>
+      </div>
+
       {/* Responsive Grid */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react'; //Manaranjan Sukh Niketan
 import { useNavigate } from 'react-router-dom';
 import {
   Heart,
@@ -105,10 +105,11 @@ function ProjectDetails({ onNavigateToDonate }: ProjectDetailsProps) {
   const navigate = useNavigate();
 
   const PDF_URL = 'https://drive.google.com/file/d/1f4Dlx9m7KmKt_PDySxuy0xhC01nPrFvr/view?usp=sharing';
-  const WHATSAPP_GROUP_URL = 'https://wa.me/917029992422?text=Hello%20I%20want%20to%20know%20more%20about%20Monoranjan-Sukh%20Niketan%20and%20I%20want%20to%20join%20the%20WhatsApp%20group%20of%20Achena%20Sukh';
+  // const WHATSAPP_GROUP_URL = 'https://wa.me/917029992422?text=Hello%20I%20want%20to%20know%20more%20about%20Monoranjan-Sukh%20Niketan%20and%20I%20want%20to%20join%20the%20WhatsApp%20group%20of%20Achena%20Sukh';
+  const WHATSAPP_GROUP_URL = 'https://chat.whatsapp.com/FbsCTa7wgruG4ujKz3ZwID';
 
-  const totalAmount = 600000;
-  const collected = 150000;
+  const totalAmount = 1200000;
+  const collected = 800000;
 
   const [lang, setLang] = useState<'bn' | 'en'>('bn');
 
@@ -240,6 +241,16 @@ function ProjectDetails({ onNavigateToDonate }: ProjectDetailsProps) {
               className="w-full h-full object-cover"
               loading="lazy"
             />
+          </div>
+
+          <div className="mt-6 mb-6">
+             <video
+              src="https://res.cloudinary.com/dtbgkad9m/video/upload/WhatsApp_Video_2026-01-07_at_20.32.27_myly5w.mp4"
+              controls
+              autoPlay
+              loop
+              className="w-full rounded-xl"
+            ></video>
           </div>
 
           <div className="flex gap-4 justify-center">

@@ -180,6 +180,16 @@ const Story = () => {
         </div>
       </section>
 
+      <div className="mt-6 mb-6">
+             <video
+              src="https://res.cloudinary.com/dtbgkad9m/video/upload/WhatsApp_Video_2026-01-07_at_20.32.27_myly5w.mp4"
+              controls
+              autoPlay
+              loop
+              className="w-full rounded-xl"
+            ></video>
+      </div>
+
       {/* Mission & Vision */}
       <section
         className="container mx-auto px-4 pb-8"
