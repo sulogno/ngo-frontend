@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Calendar, MapPin } from 'lucide-react';
 
@@ -10,8 +9,8 @@ const Projects1 = () => {
       id: 1,
       name: 'মনোরঞ্জন-সুখ নিকেতন',
       date: 'Ongoing',
-      image:
-        'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756875836/8_w0y3mb.png',
+      video:
+        'https://player.cloudinary.com/embed/?cloud_name=dtbgkad9m&public_id=whatsapp-video-2026-01-10-at-133529_Af8sOBYV_bwwl8n&profile=cld-default&autoplay=1',
       description:
         'সম্প্রতি আমাদের ট্রাস্টের একটি নতুন মানবিক প্রকল্প হিসেবে একটি বৃদ্ধাশ্রম (আশ্রয়হীনদের জন্য আশ্রয়স্থল) নির্মাণের পরিকল্পনা গ্রহণ করা হয়েছে ।',
       location: 'করবাড়ি স্টপেজ অশোকপুর , পূর্বময়না পাড়া',
@@ -54,16 +53,6 @@ const Projects1 = () => {
         </p>
       </div>
 
-      <div className="mt-6 mb-6">
-             <video
-              src="https://res.cloudinary.com/dtbgkad9m/video/upload/WhatsApp_Video_2026-01-07_at_20.32.27_myly5w.mp4"
-              controls
-              autoPlay
-              loop
-              className="w-full rounded-xl"
-            ></video>
-      </div>
-
       {/* Responsive Grid */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -83,13 +72,22 @@ const Projects1 = () => {
               }}
             >
               <div className="relative aspect-[16/10] bg-gradient-to-b from-[#1b1b1b] to-[#121212]">
-                <img
-                  src={project.image}
-                  alt={project.name}
-                  className="absolute inset-0 w-full h-full object-cover"
-                  loading="lazy"
-                  decoding="async"
-                />
+                {project.video ? (
+                  <iframe
+                    src={project.video}
+                    className="absolute inset-0 w-full h-full"
+                    allow="autoplay; fullscreen"
+                    allowFullScreen
+                  />
+                ) : (
+                  <img
+                    src={project.image}
+                    alt={project.name}
+                    className="absolute inset-0 w-full h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                )}
                 {project.ongoing && (
                   <div className="absolute top-3 left-3 sm:top-4 sm:left-4 flex items-center gap-2 bg-black/70 rounded-full px-2.5 py-1 shadow">
                     <span className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-red-500 animate-pulse" />
