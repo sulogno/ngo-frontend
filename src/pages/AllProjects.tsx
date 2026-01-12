@@ -20,7 +20,7 @@ const AllProjects = () => {
       date: "2020-03-22",
       location: "Kakdwip, Nischintapur, Namkhana",
       image:
-        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484366/Food_ufami5.png",
+        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1768227482/WhatsApp_Image_2026-01-12_at_19.39.50_2_gltthn.jpg",
       description: "রাস্তার ভবঘুরেদের দুপুরের আহার দেওয়া হয়।",
       beneficiaries: 30,
       photos: [],
@@ -31,7 +31,7 @@ const AllProjects = () => {
       date: "Every Month, Starting 2024-04-20",
       location: "Kakdwip, Namkhana, Sagar, Pathar pratima, Nischintapur",
       image:
-        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484366/Montly_Food_z8ajxb.png",
+        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1768227483/WhatsApp_Image_2026-01-12_at_19.39.51_1_xkipls.jpg",
       description:
         "দুস্থ ও অসহায় পরিবারের কাছে প্রতি মাসের শুরুতে সারা মাসের রেশন পৌঁছে দেওয়া হয়।",
       beneficiaries: 50,
@@ -43,7 +43,7 @@ const AllProjects = () => {
       date: "September - October (DurgaPuja)",
       location: "Kakdwip",
       image:
-        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484337/Winter_mibozl.png",
+        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1768227483/WhatsApp_Image_2026-01-12_at_19.39.51_am7rdn.jpg",
       description:
         "প্রতিবছর ছোট ছোট শিশু ও বয়স্ক বৃদ্ধ বৃদ্ধাদের পূজার নতুন পোশাক দেওয়া হয় ।",
       beneficiaries: 900,
@@ -55,7 +55,7 @@ const AllProjects = () => {
       date: "December - January (EveryWinter)",
       location: "Kakdwip, Namkhana, Sagar, Nischintapur",
       image:
-        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484365/Dress_fvc3b8.png",
+        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1768230373/WhatsApp_Image_2026-01-12_at_19.39.49_xnkqqi.jpg",
       description:
         "শীতকালে রাস্তার ভবঘুরে এবং শীতার্ত মানুষদের নতুন কম্বল বিতরণ করা হয়।",
       beneficiaries: 700,
@@ -67,7 +67,7 @@ const AllProjects = () => {
       date: "August (Every Monsoon)",
       location: "Kakdwip, Namkhana, Sagar",
       image:
-        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484364/Plantation_2_ahp6vj.png",
+        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1768227483/WhatsApp_Image_2026-01-12_at_19.39.50_1_dcuajo.jpg",
       description:
         "প্রতিবছর বর্ষাকালে সমুদ্র উপকূলবর্তী এলাকা এবং বিভিন্ন বিদ্যালয় প্রাঙ্গণে নতুন চারা গাছ লাগানো হয়।",
       beneficiaries: 5000, // not shown
@@ -79,7 +79,7 @@ const AllProjects = () => {
       date: "Summar (Once a Year)",
       location: "Kakdwip",
       image:
-        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484365/Blood_lqmcje.png",
+        "https://res.cloudinary.com/dtbgkad9m/image/upload/v1768227482/WhatsApp_Image_2026-01-12_at_19.39.49_dacygv.jpg",
       description: "বছরে একবার  রক্তদান শিবিরের আয়োজন করা হয়।",
       beneficiaries: 100,
       photos: [],
@@ -122,7 +122,7 @@ const AllProjects = () => {
                         <img
                           src={project.image}
                           alt={project.name}
-                          className="absolute inset-0 w-full h-full object-contain p-6 md:p-8 lg:p-10"
+                          className="absolute inset-0 w-full h-full object-cover p-6 md:p-8 lg:p-10"
                           loading="lazy"
                         />
                         {/* Badges over media on mobile */}

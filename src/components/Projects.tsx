@@ -10,38 +10,38 @@ const Projects = () => {
       id: 1,
       name: 'বৃক্ষরোপণ',
       date: 'August(monsoon)',
-      image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484364/Plantation_2_ahp6vj.png',
+      image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1768227483/WhatsApp_Image_2026-01-12_at_19.39.50_1_dcuajo.jpg',
       description:
         'প্রতিবছর বর্ষাকালে সমুদ্র উপকূলবর্তী এলাকা এবং বিভিন্ন বিদ্যালয় প্রাঙ্গণে নতুন চারা গাছ লাগানো হয়।',
       beneficiaries: 5000,
     },
-    {
-      id: 2,
-      name: 'সুখের পোশাক',
-      date: 'September-October(DurgaPuja)',
-      image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484337/Winter_mibozl.png',
-      description:
-        'প্রতিবছর ছোট ছোট শিশু ও বয়স্ক বৃদ্ধ বৃদ্ধাদের পূজার নতুন পোশাক দেওয়া হয় ।',
-      beneficiaries: 900,
-    },
-    {
-      id: 3,
-      name: 'কম্বল বিতরণ',
-      date: 'December(Winter)',
-      image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484365/Dress_fvc3b8.png',
-      description:
-        'শীতকালে রাস্তার ভবঘুরে এবং শীতার্ত মানুষদের নতুন কম্বল বিতরণ করা হয়।',
-      beneficiaries: 700,
-    },
-    {
-      id: 4,
-      name: 'মনোরঞ্জন-সুখ নিকেতন',
-      date: 'February 2026',
-      image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484364/Plantation_2_ahp6vj.png',
-      description:
-        'সম্প্রতি আমাদের ট্রাস্টের একটি নতুন মানবিক প্রকল্প হিসেবে একটি বৃদ্ধাশ্রম নির্মাণের পরিকল্পনা গ্রহণ করা হয়েছে।',
-      beneficiaries: 1000,
-    },
+    // {
+    //   id: 2,
+    //   name: 'সুখের পোশাক',
+    //   date: 'September-October(DurgaPuja)',
+    //   image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1768227483/WhatsApp_Image_2026-01-12_at_19.39.51_am7rdn.jpg',
+    //   description:
+    //     'প্রতিবছর ছোট ছোট শিশু ও বয়স্ক বৃদ্ধ বৃদ্ধাদের পূজার নতুন পোশাক দেওয়া হয় ।',
+    //   beneficiaries: 900,
+    // },
+    // {
+    //   id: 3,
+    //   name: 'কম্বল বিতরণ',
+    //   date: 'December(Winter)',
+    //   image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484365/Dress_fvc3b8.png',
+    //   description:
+    //     'শীতকালে রাস্তার ভবঘুরে এবং শীতার্ত মানুষদের নতুন কম্বল বিতরণ করা হয়।',
+    //   beneficiaries: 700,
+    // },
+    // {
+    //   id: 4,
+    //   name: 'মনোরঞ্জন-সুখ নিকেতন',
+    //   date: 'February 2026',
+    //   image: 'https://res.cloudinary.com/dtbgkad9m/image/upload/v1756484364/Plantation_2_ahp6vj.png',
+    //   description:
+    //     'সম্প্রতি আমাদের ট্রাস্টের একটি নতুন মানবিক প্রকল্প হিসেবে একটি বৃদ্ধাশ্রম নির্মাণের পরিকল্পনা গ্রহণ করা হয়েছে।',
+    //   beneficiaries: 1000,
+    // },
   ];
 
   const handleProjectClick = (projectId: number) => {
