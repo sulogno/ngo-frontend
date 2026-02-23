@@ -2,9 +2,6 @@ import React from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const DONATION_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLScmmGDN_28BP1x8R71x97zigdW94Q9FOyUq3R6n1uD4CfSUnA/viewform";
-
 const Header = () => {
   const [scrolled, setScrolled] = React.useState(false);
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -82,12 +79,9 @@ const Header = () => {
               Core Members
             </Link>
 
-            <a
-              href={DONATION_URL}
-              className="bg-[#2e2e2e] hover:bg-[#b0db9c] hover:text-black px-7 py-2.5 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[0_0_20px_rgba(176,219,156,0.6)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b0db9c] focus-visible:ring-offset-2 focus-visible:ring-offset-black"
-            >
+            <Link to="/donation" className="bg-[#2e2e2e] hover:bg-[#b0db9c] hover:text-black px-7 py-2.5 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[0_0_20px_rgba(176,219,156,0.6)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b0db9c] focus-visible:ring-offset-2 focus-visible:ring-offset-black">
               Donate
-            </a>
+            </Link>
           </nav>
 
           {/* Mobile toggle */}
@@ -147,13 +141,13 @@ const Header = () => {
                 Core Members
               </Link>
 
-              <a
-                href={DONATION_URL}
+              <Link
+                to="/donation"
                 className="bg-[#2e2e2e] hover:bg-[#b0db9c] hover:text-black px-8 py-3 rounded-full text-center text-lg transition-all duration-300"
                 onClick={closeMobile}
               >
                 Donate
-              </a>
+              </Link>
             </nav>
           </div>
         )}

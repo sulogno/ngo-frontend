@@ -19,7 +19,7 @@ import AllMembers from './pages/AllMembers';
 import CoreMembers from './pages/CoreMembers.tsx';
 import AllProjects from './pages/AllProjects';
 import Story from './pages/Story';
-import Donation from './components/Donation';
+import Donation from './pages/Donation.tsx';
 import ProjectDetails from './pages/ProjectDetails'; // Manaranjan-Sukh Niketan
 
 

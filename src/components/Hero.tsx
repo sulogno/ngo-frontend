@@ -1,7 +1,36 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 const Hero = () => {
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
+
+  useEffect(() => {
+    const calculateCountdown = () => {
+      const targetDate = new Date('2026-03-26T00:00:00').getTime();
+      const now = new Date().getTime();
+      const difference = targetDate - now;
+
+      if (difference > 0) {
+        setTimeLeft({
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / 1000 / 60) % 60),
+          seconds: Math.floor((difference / 1000) % 60),
+        });
+      }
+    };
+
+    calculateCountdown();
+    const timer = setInterval(calculateCountdown, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
@@ -48,6 +77,52 @@ const Hero = () => {
               <span>Donate Now</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
+          </div>
+
+          {/* Coming Soon Section */}
+          <div className="mt-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-[#b0db9c] animate-pulse drop-shadow-[0_0_20px_rgba(176,219,156,0.8)]">
+              Foundation Day coming soon
+            </h2>
+
+            {/* Countdown Timer */}
+            <div className="flex flex-wrap gap-4 justify-center items-center">
+              <div className="text-center">
+                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-6 py-4 backdrop-blur-sm">
+                  <div className="text-3xl md:text-4xl font-bold text-[#b0db9c]">
+                    {String(timeLeft.days).padStart(2, '0')}
+                  </div>
+                  <div className="text-sm md:text-base uppercase tracking-widest text-gray-300 mt-2">Days</div>
+                </div>
+              </div>
+              <div className="text-2xl md:text-3xl font-bold text-gray-300">:</div>
+              <div className="text-center">
+                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-6 py-4 backdrop-blur-sm">
+                  <div className="text-3xl md:text-4xl font-bold text-[#b0db9c]">
+                    {String(timeLeft.hours).padStart(2, '0')}
+                  </div>
+                  <div className="text-sm md:text-base uppercase tracking-widest text-gray-300 mt-2">Hours</div>
+                </div>
+              </div>
+              <div className="text-2xl md:text-3xl font-bold text-gray-300">:</div>
+              <div className="text-center">
+                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-6 py-4 backdrop-blur-sm">
+                  <div className="text-3xl md:text-4xl font-bold text-[#b0db9c]">
+                    {String(timeLeft.minutes).padStart(2, '0')}
+                  </div>
+                  <div className="text-sm md:text-base uppercase tracking-widest text-gray-300 mt-2">Minutes</div>
+                </div>
+              </div>
+              <div className="text-2xl md:text-3xl font-bold text-gray-300">:</div>
+              <div className="text-center">
+                <div className="bg-[#b0db9c]/20 border border-[#b0db9c]/50 rounded-lg px-6 py-4 backdrop-blur-sm">
+                  <div className="text-3xl md:text-4xl font-bold text-[#b0db9c]">
+                    {String(timeLeft.seconds).padStart(2, '0')}
+                  </div>
+                  <div className="text-sm md:text-base uppercase tracking-widest text-gray-300 mt-2">Seconds</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
